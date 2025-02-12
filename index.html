@@ -196,11 +196,6 @@
     <div class="hero-body">
         <div class="container">
             <h2 class="title is-3">Various Generated Videos</h2>
-            <br></br>
-<!--            <h3 class="title is-3">Singing</h3>-->
-            <h2 class="content has-text-justified">
-                <p style="font-size: 1.4em;"></p>
-            </h2>
 
             <!-- Different garments -->
             <div style="display: flex; justify-content: center;align-items: center; height: 80px;">
@@ -345,8 +340,109 @@
         </div>
     </div>
 </section>
+<section class="hero is-small">
+    <div class="hero-body">
+        <div class="container">
+            <h2 class="title is-3">Audio-driven Wholebody Generated Videos</h2>
+
+            <style>
+                .video-item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .video-item column {
+                    width: 48%; /* 各占一半，留下一些间隔 */
+                    object-fit: cover; /* 保持图片纵横比 */
+                    margin: 0 10px;
+                }
+
+
+                .item-gif-container {
+                    width: 48%; /* 占据父元素的80%宽度 */
+                    margin: auto; /* 水平方向上创建相同的空白 */
+                }
+            </style>
+
+            <style>
+                .video-container {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    /*margin: 0 10px;*/
+                    width: 100%;
+                }
+
+                .description {
+                    font-size: 1.2em;
+                    text-align: justify;
+                }
+
+                .content-description {
+                    margin-top: 10px; /* Add some space above the description */
+                }
+            </style>
+            <style>
+                .caption {
+                    margin-top: 8px; /* Space between the video and its caption */
+                }
+            </style>
+
+            <div class="content has-text-justified">
+                <p style="font-size: 1.2em;">
+                    The technical report of this section is working in progress. Stay tuned. More audio-driven generation results are shown in <a href="https://www.linkedin.com/in/bingyp" target="_blank">https://saiyan-world.github.io/goku/</a>.
+                </p>
+            </div>
+
+            <div class="video-item">
+
+                <div class="column">
+                    <video class="video-player" poster="" id="tree2" controls>
+                        <source src="content/goku_a2v/1.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="column">
+                    <video class="video-player" poster="" id="tree2" controls>
+                        <source src="content/goku_a2v/2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+                <div class="column">
+                    <video class="video-player" poster="" id="tree2" controls>
+                        <source src="content/goku_a2v/9.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <!-- <div class="video-item">
+
+                <div class="column">
+                    <video class="video-player" poster="" id="tree2" controls>
+                        <source src="content/goku_a2v/4.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="column">
+                    <video class="video-player" poster="" id="tree2" controls>
+                        <source src="content/goku_a2v/9.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="column">
+                    <video class="video-player" poster="" id="tree2" controls>
+                        <source src="content/goku_a2v/10.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div> -->
+        </div>
+    </div>
+</section>
 <!--BibTex citation -->
-<section class="section" id="BibTeX">
+<section class="hero is-small is-light" id="BibTeX">
+    <br> </br>
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
